@@ -1,0 +1,117 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+#loadFacebookG {
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.facebook_blockG {
+    background-color: #00a9ff;
+    border: 1px solid #00a9ff;
+    float: left;
+    height: 25px;
+    margin-left: 2px;
+    width: 7px;
+    opacity: .1;
+    animation-name: bounceG;
+    -o-animation-name: bounceG;
+    -ms-animation-name: bounceG;
+    -webkit-animation-name: bounceG;
+    -moz-animation-name: bounceG;
+    animation-duration: 1.235s;
+    -o-animation-duration: 1.235s;
+    -ms-animation-duration: 1.235s;
+    -webkit-animation-duration: 1.235s;
+    -moz-animation-duration: 1.235s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: normal;
+    -o-animation-direction: normal;
+    -ms-animation-direction: normal;
+    -webkit-animation-direction: normal;
+    -moz-animation-direction: normal;
+    transform: scale(0.7);
+    -o-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+}
+#blockG_1 {
+    animation-delay: .3695s;
+    -o-animation-delay: .3695s;
+    -ms-animation-delay: .3695s;
+    -webkit-animation-delay: .3695s;
+    -moz-animation-delay: .3695s;
+}
+#blockG_2 {
+    animation-delay: .496s;
+    -o-animation-delay: .496s;
+    -ms-animation-delay: .496s;
+    -webkit-animation-delay: .496s;
+    -moz-animation-delay: .496s;
+}
+#blockG_3 {
+    animation-delay: .6125s;
+    -o-animation-delay: .6125s;
+    -ms-animation-delay: .6125s;
+    -webkit-animation-delay: .6125s;
+    -moz-animation-delay: .6125s;
+}
+@keyframes bounceG {
+    0% {
+    transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    transform: scale(0.7);
+    opacity: .1;
+}
+}@-o-keyframes bounceG {
+    0% {
+    -o-transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    -o-transform: scale(0.7);
+    opacity: .1;
+}
+}@-ms-keyframes bounceG {
+    0% {
+    -ms-transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    -ms-transform: scale(0.7);
+    opacity: .1;
+}
+}@-webkit-keyframes bounceG {
+    0% {
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    -webkit-transform: scale(0.7);
+    opacity: .1;
+}
+}@-moz-keyframes bounceG {
+    0% {
+    -moz-transform: scale(1.2);
+    opacity: 1;
+}
+100% {
+    -moz-transform: scale(0.7);
+    opacity: .1;
+}
+}
+
+.slain-preloader-wrap {
+                background-color: #ffffff;
+            }

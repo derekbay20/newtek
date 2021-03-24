@@ -1,0 +1,72 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+/*--------------------------------------------------------------
+Contact Form 7
+--------------------------------------------------------------*/
+
+
+
+/* Contact form 7 */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="date"],
+.wpcf7 select,
+.wpcf7 textarea {
+  border-style: solid;
+  border-width: 1px;
+  padding: 13px;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"] {
+ width: 100%;
+}
+
+.wpcf7 input[type="number"] {
+   width: 60px;
+}
+
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="date"] {
+  width: 170px;
+}
+
+.wpcf7 textarea {
+  width: 100%;
+  height: 250px;
+}
+
+.wpcf7 label input,
+.wpcf7 label select,
+.wpcf7 label textarea {
+  margin-top: 3px;
+}
+
+.wpcf7 label,
+.wpcf7-quiz-label {
+  display: block;
+}
+
+.wpcf7 p {
+  margin-bottom: 22px;
+}
+
+.wpcf7 [type="submit"] {
+  padding: 13px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.zoom-social_icons-list-span {
+  font-family: "socicon" !important;
+}

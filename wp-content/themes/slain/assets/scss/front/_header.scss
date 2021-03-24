@@ -1,0 +1,67 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+@import "header/media";
+@import "header/top";
+@import "header/branding";
+@import "header/menu";
+@import "header/ticker";
+
+
+/* Top Menu */
+#mobile-menu li {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#mobile-menu .sub-menu > li {
+  font-size: 13px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+#top-bar > div,
+.header-branding>div,
+#main-nav > div,
+#featured-links > div,
+.main-content > div,
+.page-footer-inner,
+
+.home-middle-section > .boxed-wrapper,
+.home-full-area > .boxed-wrapper,
+.featured-slider-area.boxed-wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.breadcrumbs-wrap > div{
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.centurylib-breadcrumbs-wrapper{
+  .layout1{
+    margin:0;
+  }
+}
+
+.centurylib-breadcrumbs-wrapper{
+    .layout2{
+        li{
+            &:before{
+              left:initial;
+              right:100%;
+            }
+            &:after{
+                right:initial;
+                left:100%;
+            }
+        }
+    }
+}
+

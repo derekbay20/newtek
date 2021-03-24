@@ -1,0 +1,32 @@
+/**
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.widget_archive li a::before, 
+.widget_categories li a::before,
+.widget_meta li a::before,
+.widget_pages li a::before,
+.widget_product_categories li a::before,
+.widget_recent_comments li::before,
+.widget_recent_entries li a::before, 
+.widget_rss li a::before{
+	content: "\f100";
+}
+
+.slick-list{
+	direction: ltr;
+}
+
+.slick-slide{
+	direction: rtl;
+}
+
+.carousel-nav-action{
+	direction: ltr;
+}

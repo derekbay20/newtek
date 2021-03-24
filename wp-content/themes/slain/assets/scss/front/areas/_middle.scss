@@ -1,0 +1,29 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+.home-middle-section{
+	.middle-primary{
+	    float: left;
+	    width: 70%;
+	    @media(max-width:979px){
+	    	float:left;
+	    	width:100%;
+	    	padding-right:0px;
+	    }
+
+	}
+
+	.middle-aside{
+		float:right;
+		width:30%;
+		@media(max-width:979px){
+	    	float:left;
+	    	width:100%;
+	    	padding-right:0px;
+	    }
+	}
+
+}

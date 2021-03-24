@@ -1,0 +1,138 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+/*--------------------------------------------------------------
+15.0 Typography
+--------------------------------------------------------------*/
+
+.has-large-font-size{
+  line-height:1.4em;
+}
+
+/* Headings Fonts */
+.slain-widget > ul li span,
+.slain-widget > ul li span a,
+#wp-calendar thead th,
+#wp-calendar caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.blog-pagination {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.related-posts h3,
+#reply-title,
+#reply-title a,
+.comment-title h2,
+.comment-title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+#reply-title,
+#respond,
+.related-posts,
+.comments-area {
+  margin-top: 43px;
+}
+
+#respond + li {
+  margin-top: 37px;
+}
+
+/* Body Text */
+body {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.8em;
+}
+
+/*--------------------------------------------------------------
+16.0 Pages
+--------------------------------------------------------------*/
+
+.search .page .post-date,
+.search .page .post-author {
+  display: none;
+}
+
+.page-404 {
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.page-404 h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0 0 60px;
+  letter-spacing: 4px;
+}
+
+.page-404 h2:before {
+  content: '404';
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  z-index: 1;
+  font-size: 110px;
+  line-height: 1;
+  margin-top: -4px;
+  opacity: 0.15;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.page-404 p {
+  letter-spacing: 1px;
+}
+
+.page-404 p a {
+  text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------------
+17.0 Preloader
+--------------------------------------------------------------*/
+
+.slain-preloader-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+}
+
+.slain-preloader-wrap > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+
+/*--------------------------------------------------------------
+18.0 Gutenberg Styles
+--------------------------------------------------------------*/
+
+.wp-block-separator.is-style-default {
+  width: 120px;
+  margin: 0 auto;
+}

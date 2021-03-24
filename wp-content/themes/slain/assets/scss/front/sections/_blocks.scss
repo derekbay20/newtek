@@ -1,0 +1,71 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+ /*--------------------------------------------------------------
+7.0 Featured blocks
+--------------------------------------------------------------*/
+
+#featured-links {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  h6{
+      background-color: #ffffff;
+      color: #000000;
+  }
+}
+
+#featured-links .boxed-wrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+#featured-links .featured-link {
+  position: relative;
+  float: left;
+}
+
+#featured-links a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-link {
+  overflow: hidden;
+}
+
+.featured-link .cv-outer {
+  padding: 12px;
+}
+
+.featured-link .cv-inner {
+  border-width: 1px;
+  border-style: solid;
+  transition: border 0.4s;
+  -webkit-transition: border 0.4s;
+}
+
+.featured-link h6 {
+  display: inline-block;
+  padding: 8px 20px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Zoom */
+.featured-link img {
+  transition: transform 0.4s ease-in-out;
+  -webkit-transition: transform 0.4s ease-in-out;
+}
+
+.featured-link:hover img {
+  transform: scale(1.05);
+}

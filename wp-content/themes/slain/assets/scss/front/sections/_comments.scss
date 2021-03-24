@@ -1,0 +1,167 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+/*--------------------------------------------------------------
+11.0 Comments
+--------------------------------------------------------------*/
+
+#reply-title,
+#reply-title a,
+.comment-title h2,
+.comment-title {
+  margin-bottom: 44px;
+}
+
+.comments-area .children {
+  margin-left: 30px;
+}
+
+.entry-comments {
+  overflow: hidden;
+  padding-bottom: 37px;
+  margin-bottom: 41px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.commentslist > li:last-child .entry-comments {
+  margin-bottom: 0;
+} 
+
+.comment-content {
+  overflow: hidden;
+}
+
+.comment-avatar {
+  float: left;
+  margin-right: 17px;
+}
+
+.comment-avatar img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.comment-author {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.comment-date a:first-child:hover {
+  text-decoration: underline;
+}
+
+.awaiting-moderation {
+  font-style: italic;
+}
+
+.commentslist footer a:hover {
+  text-decoration: underline;
+}
+
+.logged-in-as {
+  margin-bottom: 12px;
+}
+
+.comment-meta {
+  margin-bottom: 7px;
+  font-size: 11px;
+  text-transform: capitalize;
+}
+
+.comment-date {
+  margin-right: 10px;
+}
+
+.comment-edit-link {
+  display: inline-block;
+}
+
+.comment-reply-link {
+  font-size: 13px;
+  font-weight: 600;
+  float: right;
+  margin-top: -20px;
+  text-transform: capitalize;
+}
+
+.comment-form {
+  padding-top: 4px;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.comment-notes {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.comments-area input,
+.comments-area textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.comment-form-cookies-consent{
+  label,
+  input{
+    display:inline;
+    width:auto;
+  }
+}
+
+.comment-form-author,
+.comment-form-email, 
+.comment-form-url {
+  margin-bottom: 15px;
+}
+
+.comment-form-comment {
+  margin-bottom: 10px;
+}
+
+.comment-form-author,
+.comment-form-email, 
+.comment-form-url {
+  width: calc( (100% - 44px) / 3 );
+  width: -webkit-calc( (100% -44px) / 3- 1px) !important;
+  float: left;
+}
+
+.comment-form-author,
+.comment-form-email {
+  margin-right: 22px;
+}
+
+.comments-area textarea {
+  height: 250px;
+}
+
+.form-submit {
+  margin-bottom: 0;
+}
+
+.comments-area #submit {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}

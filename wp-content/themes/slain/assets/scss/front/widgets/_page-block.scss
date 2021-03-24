@@ -1,0 +1,48 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+.about-us-wrapper{
+	color:#fff;
+	background-size:cover;
+	background-color:#1e73be;
+	background-position:center center;
+	@media(max-width: 1200px){
+		padding-left:15px;
+		padding-right:15px;
+	}
+	@media(max-width:767px){
+		padding:0px;
+	}
+}
+
+.about-block-title{
+	text-transform:uppercase;
+	margin:0 0 10px;
+	h2{
+		color:inherit !important;
+	}
+}
+
+.about-media-part,
+.about-content-part{
+	width:50%;
+	display:table-cell;
+	vertical-align:middle;
+	@media(max-width:767px){
+		width:100%;
+		display:block;
+	}
+}
+
+.about-content-part{
+	padding: 15px;
+}
+
+.about-content-inner{
+	width:100%;
+	display:inline-block;
+	vertical-align:middle;
+}

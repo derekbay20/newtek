@@ -1,0 +1,13 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+.branding-area{
+	.slain-widget{
+		&:last-child{
+			margin-bottom:0px;
+		}
+	}
+}

@@ -1,0 +1,65 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+
+/*--------------------------------------------------------------
+9.0 Blog Pagination
+--------------------------------------------------------------*/
+
+.blog-pagination {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Default */
+.page-content .blog-pagination.default .previous-page a,
+.page-content .blog-pagination.default .next-page a {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.blog-pagination.default .previous-page {
+  float: left;
+}
+
+.blog-pagination.default .next-page {
+  float: right;
+}
+
+/* Numeric */
+.blog-pagination.numeric {
+  margin-top: 40px;
+}
+
+.blog-pagination.numeric a,
+.blog-pagination.numeric span {
+  display: inline-block;
+  padding: 13px 15px;
+  line-height: 1;
+  margin: 0 2px;
+}
+
+.blog-pagination.numeric .numeric-prev-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.blog-pagination.numeric .numeric-next-page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}

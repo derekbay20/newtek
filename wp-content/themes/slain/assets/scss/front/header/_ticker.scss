@@ -1,0 +1,35 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+ /*--------------------------------------------------------------
+Ticker
+--------------------------------------------------------------*/
+
+.ticker-label{
+			max-width:200px;
+			float:left;
+		}
+		.ticker-items{
+			width:calc( 100% - 200px );
+		}
+		.ticker-items>li{
+			display:none;
+		}
+		.ticker-items>li:first-child{
+			display:block;
+		}
+		.ticker-items li::after{
+			content:"";
+			display:block;
+			clear:both;
+		}
+		.ticker-image{
+			width:50px;
+			float:left;
+		}
+		.ticker-title{
+			float:left;
+			width:calc( 100% - 50px );
+		}

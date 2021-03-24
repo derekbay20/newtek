@@ -1,0 +1,82 @@
+/*
+ * @package themecentury
+ * @subpackage slain
+ * @since 1.0.0
+ */
+
+.sidebar-left{
+	padding-right:30px;
+}
+.sidebar-right{
+	padding-left:30px;
+}
+
+.small-widget-area{
+	.posts-layout{
+		.primary-block-wrap{
+			width:100%;
+			margin-right:0px;
+		}
+		.secondary-block-wrap{
+			width:100%;
+			margin-left:0px;
+		}
+
+		.layout2{
+			.primary-block-wrap{
+				.single-post{
+					float:none;
+					width:100%;
+					&:first-child, &:last-child{
+						padding:0px;
+					}
+				}
+			}
+			.secondary-block-wrap{
+				.single-post{
+					padding:0px;
+					width:100%;
+					float:none;
+					&:nth-child( 2n+1 ){
+						padding:0px;
+					}
+				}
+			}
+		}
+
+		.layout3{
+			.secondary-block-wrap{
+				width:100%;
+				margin: 15px 0 0;
+				.single-post{
+					margin:0;
+					width:100%;
+				}
+			}
+		}
+
+	}
+
+	.slain-alternative-block{
+		width:100%;
+		float:none;
+		&:nth-child(2n+2){
+			.alternative-post-content, .alternate-block-thumb{
+				display:block;
+			}
+		}
+	}
+
+	.alternate-content-inner{
+		padding-top:0px;
+	}
+	.alternate-center-part{
+		position:static;
+		transform:none;
+	}
+
+	.block-posts-blog{
+		width:100%;
+		float:none;
+	}
+}
